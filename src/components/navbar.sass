@@ -1,0 +1,24 @@
+@mixin center
+    display: flex
+    align-items: center
+    justify-content: center
+
+.nav-main
+    width: 90vw
+    height: 11vh
+    max-height: 200px
+    border-bottom: solid white 5px
+    @include center
+    justify-content: space-around
+    cursor: pointer
+    margin-bottom: min(20px, 3vh)
+    div 
+        color: white
+        font-size: 1.4rem
+    div:nth-child(1) 
+        margin-right: 20%
+        font-weight: 600
+        
+
+
+

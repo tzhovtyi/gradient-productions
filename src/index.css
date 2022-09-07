@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #333030;
+  font-family: niveau-grotesk;
+  font-weight:lighter;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}

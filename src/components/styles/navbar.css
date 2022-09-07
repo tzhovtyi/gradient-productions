@@ -1,0 +1,20 @@
+.nav-main {
+  width: 90vw;
+  height: 11vh;
+  max-height: 200px;
+  border-bottom: solid white 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  cursor: pointer;
+  margin-bottom: min(20px, 3vh);
+}
+.nav-main div {
+  color: white;
+  font-size: 1.4rem;
+}
+.nav-main div:nth-child(1) {
+  margin-right: 20%;
+  font-weight: 600;
+}/*# sourceMappingURL=navbar.css.map */
