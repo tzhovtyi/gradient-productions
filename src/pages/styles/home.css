@@ -30,7 +30,7 @@
 
 .collab {
   width: 75%;
-  aspect-ratio: 5/1;
+  height: 100px;
   border: solid gray;
   margin-bottom: 3rem;
 }

@@ -1,7 +1,7 @@
 @mixin center
     display: flex
     align-items: center
-    justify-content: center
+    justify-content: space-between
 
 .nav-main
     width: 90vw
@@ -9,15 +9,26 @@
     max-height: 200px
     border-bottom: solid white 5px
     @include center
-    justify-content: space-around
-    cursor: pointer
     margin-bottom: min(20px, 3vh)
+    
+.brand-name
+    color: white
+    font-size: 1.4rem
+    font-weight: 600
+    cursor: pointer
+    margin-left: 5%
+
+.nav-right 
+    @include center
+    width: 30%
+    margin-right: 5%
+    color: white
+    font-size: 1.2rem
     div 
-        color: white
-        font-size: 1.4rem
-    div:nth-child(1) 
-        margin-right: 20%
-        font-weight: 600
+        cursor: pointer
+
+
+
         
 
 

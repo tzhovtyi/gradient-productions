@@ -7,10 +7,12 @@ export default function Navbar() {
     const navigate = useNavigate();
     return (
         <div className='nav-main'>
-            <div onClick={() => navigate("/")}>Gradient Productions</div>
-            <div onClick={() => navigate("/portfolio")}>Portifolio</div>
-            <div onClick={() => navigate("/contacts")}>Contacts</div>
-            <div onClick={() => navigate("/rent")}>Shop</div>
+            <div className = 'brand-name' onClick={() => navigate("/")}>Gradient Productions</div>
+            <div className='nav-right'>
+                <div onClick={() => navigate("/portfolio")}>Portifolio</div>
+                <div onClick={() => navigate("/contacts")}>Contacts</div>
+                <div onClick={() => navigate("/rent")}>Shop</div>
+            </div>
         </div>
 
     )
