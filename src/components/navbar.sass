@@ -19,7 +19,7 @@
 .nav-right 
     @include center
     width: 30%
-    margin-right: 5%
+    margin-right: 1rem
     color: white
     font-size: 1.2rem
     div 
@@ -29,7 +29,7 @@
             background: #363333
 
             
-@media (max-width: 450px) 
+@media (max-width: 850px) 
     .toggle-button
         display: flex
         flex-direction: column
@@ -45,13 +45,19 @@
         flex-direction: column
         align-items: flex-start
         width: 100%
-        display: none
+        height: 0px
+        transition: all 0.4s
+        overflow: hidden
         div
             width: 100%
             padding: 0.5rem 0rem
             text-align: center 
+            display: none
     .menu-active 
         display: flex
+        height: 115px
+        div
+            display: block
     .nav-main
         flex-direction: column
         align-items: flex-start
