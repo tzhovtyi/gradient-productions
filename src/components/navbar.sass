@@ -1,12 +1,9 @@
-@mixin center
-    display: flex
-    align-items: center
-    justify-content: space-between
-
+@use '../mixins.sass'
+@import '../variables.sass'
 .nav-main
     width: 90%
     border-bottom: solid white 5px
-    @include center
+    @include mixins.space-between-center
     margin-bottom: min(20px, 3vh)
     
 .brand-name
@@ -17,7 +14,7 @@
     margin: 1rem
 
 .nav-right 
-    @include center
+    @include mixins.space-between-center
     width: 30%
     margin-right: 1rem
     color: white

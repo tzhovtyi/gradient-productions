@@ -4,7 +4,8 @@ import "./styles/portfolio.css";
 
 export default function Portfolio() {
     return (
-        <div className='portfolio-main'><Navbar />
+        <div className='portfolio-main'>
+            <Navbar />
             <h3 className='headerPortfolio'>Portfolio</h3>
             <p className='description'>Here you can find some examples of our work, they include video files, audios and photos!</p>
             <div className='videoThumbnails'>
