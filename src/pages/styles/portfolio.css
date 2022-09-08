@@ -1,0 +1,85 @@
+.portfolio-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio-main h3 {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  margin-top: 0;
+  font-family: niveau-grotesk-small-caps, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.portfolio-main p {
+  width: 75%;
+  text-align: center;
+  color: white;
+  margin-bottom: 2rem;
+  margin-top: 0;
+  padding: 0;
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.portfolio-main .headerPortfolio {
+  margin-bottom: 2rem;
+}
+.portfolio-main .videoThumbnails {
+  width: 80%;
+}
+.portfolio-main .videoThumbnails h3 {
+  margin-bottom: 0;
+}
+.portfolio-main .videoThumbnails .containerVideos {
+  padding: 0 2vw;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /*after the screen ratio 1:1 move them into 3 on each line, */
+}
+.portfolio-main .videoThumbnails .containerVideos .videoEach {
+  background: #D9D9D9;
+  margin: 4vh 2vw;
+  height: 25vh;
+}
+.portfolio-main .description {
+  text-align: left;
+  width: 80%;
+  font-size: 1.2rem;
+}
+.portfolio-main .photoThumbnails {
+  width: 80%;
+}
+.portfolio-main .photoThumbnails h3 {
+  margin-bottom: 0;
+}
+.portfolio-main .photoThumbnails .containerPhotos {
+  padding: 0 2vw;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  /*after the screen ratio 1:1 move them into 3 on each line, */
+}
+.portfolio-main .photoThumbnails .containerPhotos .photoEach {
+  background: #D9D9D9;
+  margin: 4vh 2vw;
+  height: 25vh;
+}
+.portfolio-main .audioFiles {
+  width: 80%;
+}
+.portfolio-main .audioFiles h3 {
+  margin-bottom: 0;
+}
+.portfolio-main .audioFiles .containerAudios {
+  padding: 0 2vw;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+.portfolio-main .audioFiles .containerAudios .audioEach {
+  background: #D9D9D9;
+  margin: 4vh 2vw;
+  height: 10vh;
+}/*# sourceMappingURL=portfolio.css.map */
