@@ -4,9 +4,7 @@
     justify-content: space-between
 
 .nav-main
-    width: 90vw
-    height: 11vh
-    max-height: 200px
+    width: 90%
     border-bottom: solid white 5px
     @include center
     margin-bottom: min(20px, 3vh)
@@ -16,7 +14,7 @@
     font-size: 1.4rem
     font-weight: 600
     cursor: pointer
-    margin-left: 5%
+    margin: 1rem
 
 .nav-right 
     @include center
@@ -26,10 +24,48 @@
     font-size: 1.2rem
     div 
         cursor: pointer
+        padding: 1rem
+        &:hover
+            background: #363333
 
+            
+@media (max-width: 450px) 
+    .toggle-button
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        width: 30px
+        height: 21px
+        .bar
+            height: 4px
+            width: 100%
+            background-color: white
+            border-radius: 2px
+    .nav-right 
+        flex-direction: column
+        align-items: flex-start
+        width: 100%
+        display: none
+        div
+            width: 100%
+            padding: 0.5rem 0rem
+            text-align: center 
+    .menu-active 
+        display: flex
+    .nav-main
+        flex-direction: column
+        align-items: flex-start
+        justify-content: center
+    .mobile-bar 
+        display: flex
+        align-items: center
+        justify-content: space-between
+        width: 100%
 
+    
 
-        
+     
+
 
 
 
